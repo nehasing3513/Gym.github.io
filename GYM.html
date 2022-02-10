@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>1st</title>
+    <style>
+        body {
+            background-image: url("../IMAGES/picture/Gym\ trainer.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+            color: white;
+
+        }
+
+        .left {
+
+         /*   border: 3px solid red; */
+            color: white;
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 60px;
+
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+
+        /*    border: 3px solid green;  */
+            color: white;
+            display: block;
+            width: 38%;
+            margin: 20px auto;
+
+        }
+
+        .right {
+
+         /*   border: 3px solid palevioletred;*/
+            color: white;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            list-style: none;
+            padding-right: 10px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+
+        .navbar li a:hover,
+        a:active {
+            text-decoration: underline;
+            color: blue;
+            background-color: gray;
+        }
+
+        .btn {
+            margin: 0px 2px;
+            /* 1st digit is for top & next one is for horizontal*/
+            background-color: black;
+            color: white;
+            padding: 6px 10px;
+            border: 2px solid grey;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 3px solid white;
+            margin: 586px 150px;
+            padding: 27px 27px;
+            width: 30%;
+            border-radius: 24px;
+
+        }
+
+        .form input {
+            text-align: center;
+            display: block;
+            width: 238px;
+            padding: 8px;
+            border: 2px solid black;
+            border-radius: 9px;
+            font-size: 15px;
+            /*  margin: 2px auto;*/
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            width: 30%;
+            margin: 15px auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <!--Left box for logo-->
+            <img src="../IMAGES/picture/dumble.jpg">
+            <div>FITNESS GYM</div>
+
+        </div>
+
+        <div class="mid">
+            <!--Mid box for navigation bar-->
+
+            <ul class="navbar">
+                <li><a href="#"> FITNESS GYM</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <!--Righr box for buttons-->
+
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <h1>JOIN the BEST gym of KOLKATA NOW</h1>
+
+        <form action="noaction.php">
+            <div class="form">
+                NAME: <input type="text" placeholder="Enter your Name here"><br>
+                AGE: <input type="number" placeholder="Enter your Age"><br>
+                ADRESS:<input type="text" placeholder="Enter your address"><br>
+                <button class="btn">SUBMIT</button>
+
+
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+
+<!--https://unsplash.com/ -->
